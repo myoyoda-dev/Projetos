@@ -10,16 +10,17 @@
 
 ## 📋 Checklist por máquina
 
-| Etapa                     | Desktop (Yuki-PC) | Notebook | Versão / Notas       |
-|---------------------------|:-----------------:|:--------:|----------------------|
-| Ubuntu                    |        [x]        |   [x]    |                      |
-| Python                    |        [x]        |   [ ]    | Desktop: 3.14.4      |
-| VS Code                   |        [x]        |   [x]    |                      |
-| Git + GitHub              |        [x]        |   [ ]    | Desktop: 2.53.0      |
-| VS Code Settings Sync     |        [ ]        |   [ ]    | login GitHub         |
-| Node.js (via nvm)         |        [x]        |   [ ]    | Desktop: v24.18.1    |
-| Claude Code               |        [x]        |   [ ]    | Desktop: 2.1.220     |
-| Autenticação Claude       |        [?]        |   [ ]    | confirmar no Desktop |
+| Etapa                     | Desktop (Yuki-PC) | Notebook (Yuki-Note) | Versão / Notas       |
+|---------------------------|:-----------------:|:--------------------:|----------------------|
+| Ubuntu                    |        [x]        |         [x]          | Note: 26.04 LTS      |
+| Python                    |        [x]        |         [x]          | 3.14.4 (ambos)       |
+| VS Code                   |        [x]        |         [x]          | Note: 1.131.0        |
+| Git + GitHub              |        [x]        |         [x]          | 2.53.0 (ambos)       |
+| VS Code Settings Sync     |        [ ]        |         [ ]          | login GitHub         |
+| nvm                       |        [x]        |         [ ]          | instalando no Note   |
+| Node.js (via nvm)         |        [x]        |         [ ]          | Desktop: v24.18.1    |
+| Claude Code               |        [x]        |         [ ]          | Desktop: 2.1.220     |
+| Autenticação Claude       |        [x]        |         [ ]          | OK no Desktop        |
 
 ---
 
@@ -32,12 +33,15 @@ python3     -> Python 3.14.4
 claude      -> 2.1.220 (Claude Code)
 git         -> git version 2.53.0
 
-### Notebook
+### Notebook (Yuki-Note)
+ubuntu      -> 26.04 LTS
+python3     -> Python 3.14.4
+git         -> git version 2.53.0
+vscode      -> 1.131.0
 node -v     -> (pendente)
 npm -v      -> (pendente)
-python3     -> (pendente)
+nvm         -> (instalando)
 claude      -> (pendente)
-git         -> (pendente)
 
 ---
 
@@ -45,17 +49,19 @@ git         -> (pendente)
 - Git user.name:
 - Git user.email:
 - Método de auth GitHub: (SSH / token)
+- Claude Code tema: Dark mode
 
 ---
 
 ## ⏭️ Próximos passos
-- [ ] Confirmar autenticação do Claude no Desktop
-- [ ] Rodar diagnóstico no Notebook
-- [ ] Instalar no Notebook o que faltar (bater versões do Desktop)
+- [ ] Instalar nvm no Notebook
+- [ ] Instalar Node v24.18.1 no Notebook
+- [ ] Instalar Claude Code no Notebook
+- [ ] Autenticar Claude no Notebook
 - [ ] Ativar VS Code Settings Sync nos dois PCs
-- [ ] Iniciar estudos de Claude Code
 
 ---
 
 ## 📓 Histórico de sessões
-- **2026-08-01:** Corrigido submódulo `sorteador-alunos` (virou pasta normal). Criado SETUP.md. Desktop diagnosticado e configurado. Notebook pendente.
+- **2026-08-01 (Desktop):** SETUP.md versionado (commit ea7a2ab). Desktop 100% pronto — Claude autenticado, tema Dark.
+- **2026-08-01 (Notebook):** Repositório sincronizado via git pull. Diagnóstico: Ubuntu 26.04, Python 3.14.4, Git 2.53.0 e VS Code 1.131.0 já OK. Falta nvm/Node/Claude.

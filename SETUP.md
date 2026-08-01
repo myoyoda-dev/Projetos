@@ -17,10 +17,10 @@
 | VS Code                   |        [x]        |         [x]          | Note: 1.131.0        |
 | Git + GitHub              |        [x]        |         [x]          | 2.53.0 (ambos)       |
 | VS Code Settings Sync     |        [ ]        |         [ ]          | login GitHub         |
-| nvm                       |        [x]        |         [ ]          | instalando no Note   |
-| Node.js (via nvm)         |        [x]        |         [ ]          | Desktop: v24.18.1    |
-| Claude Code               |        [x]        |         [ ]          | Desktop: 2.1.220     |
-| Autenticação Claude       |        [x]        |         [ ]          | OK no Desktop        |
+| nvm                       |        [x]        |         [x]          | 0.40.1 (ambos)       |
+| Node.js (via nvm)         |        [x]        |         [x]          | v24.18.1 (ambos)     |
+| Claude Code               |        [x]        |         [x]          | 2.1.220 (ambos)      |
+| Autenticação Claude       |        [x]        |         [ ]          | Note: aguarda assin. |
 
 ---
 
@@ -38,10 +38,10 @@ ubuntu      -> 26.04 LTS
 python3     -> Python 3.14.4
 git         -> git version 2.53.0
 vscode      -> 1.131.0
-node -v     -> (pendente)
-npm -v      -> (pendente)
-nvm         -> (instalando)
-claude      -> (pendente)
+nvm         -> 0.40.1
+node -v     -> v24.18.1
+npm -v      -> 11.16.0
+claude      -> 2.1.220 (Claude Code) — login pendente
 
 ---
 
@@ -54,14 +54,13 @@ claude      -> (pendente)
 ---
 
 ## ⏭️ Próximos passos
-- [ ] Instalar nvm no Notebook
-- [ ] Instalar Node v24.18.1 no Notebook
-- [ ] Instalar Claude Code no Notebook
-- [ ] Autenticar Claude no Notebook
+- [ ] Autenticar Claude no Notebook (após contratar assinatura — rodar `claude` no diretório do projeto)
 - [ ] Ativar VS Code Settings Sync nos dois PCs
+- [ ] (Opcional) Atualizar npm 11.16.0 -> 12.0.2 nos dois PCs
 
 ---
 
 ## 📓 Histórico de sessões
 - **2026-08-01 (Desktop):** SETUP.md versionado (commit ea7a2ab). Desktop 100% pronto — Claude autenticado, tema Dark.
-- **2026-08-01 (Notebook):** Repositório sincronizado via git pull. Diagnóstico: Ubuntu 26.04, Python 3.14.4, Git 2.53.0 e VS Code 1.131.0 já OK. Falta nvm/Node/Claude.
+- **2026-08-01 (Notebook):** Repositório sincronizado via git pull. Diagnóstico: Ubuntu 26.04, Python 3.14.4, Git 2.53.0 e VS Code 1.131.0 já OK.
+- **2026-08-01 (Notebook):** Instalados nvm 0.40.1, Node v24.18.1, npm 11.16.0 e Claude Code 2.1.220. Ambiente agora idêntico ao Desktop. Login do Claude adiado até contratar assinatura. Tema Dark selecionado.

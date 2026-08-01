@@ -19,7 +19,7 @@
 | VS Code Settings Sync     |        [x]        |         [x]          | login GitHub ✔       |
 | nvm                       |        [x]        |         [x]          | 0.40.1 (ambos)       |
 | Node.js (via nvm)         |        [x]        |         [x]          | v24.18.1 (ambos)     |
-| npm                       |        [ ]        |         [x]          | Note: 12.0.2 / Desktop: 11.16.0 |
+| npm                       |        [x]        |         [x]          | 12.0.2 (ambos)       |
 | Claude Code               |        [x]        |         [x]          | 2.1.220 (ambos)      |
 | Autenticação Claude       |        [x]        |         [ ]          | Note: aguarda assin. |
 
@@ -29,7 +29,7 @@
 
 ### Desktop (Yuki-PC)
 node -v     -> v24.18.1
-npm -v      -> 11.16.0
+npm -v      -> 12.0.2
 python3     -> Python 3.14.4
 claude      -> 2.1.220 (Claude Code)
 git         -> git version 2.53.0
@@ -65,7 +65,6 @@ claude      -> 2.1.220 (Claude Code) — login pendente
 
 ## ⏭️ Próximos passos
 - [ ] Autenticar Claude no Notebook (após contratar assinatura — rodar `claude` no diretório do projeto)
-- [ ] Atualizar npm 11.16.0 -> 12.0.2 no Desktop (`npm install -g npm@latest`)
 
 ---
 
@@ -75,3 +74,4 @@ claude      -> 2.1.220 (Claude Code) — login pendente
 - **2026-08-01 (Notebook):** Instalados nvm 0.40.1, Node v24.18.1, npm 11.16.0 e Claude Code 2.1.220. Ambiente agora idêntico ao Desktop. Login do Claude adiado até contratar assinatura. Tema Dark selecionado.
 - **2026-08-01 (Notebook):** VS Code Settings Sync ativado e sincronizado com o Desktop. Conflitos resolvidos com "Accept Remote Settings". Idioma mantido em Inglês.
 - **2026-08-01 (Notebook):** Git confirmado (user.name/email/remote). Adicionado Black e deps ao requirements.txt (commit f3abc5a). npm atualizado 11.16.0 -> 12.0.2. Arquivo hello.py de teste descartado com git restore.
+- **2026-08-01 (Desktop):** npm atualizado 11.16.0 -> 12.0.2. Ambientes agora 100% idênticos. Conflito no git pull resolvido com git checkout (descartada versão local antiga do SETUP.md).

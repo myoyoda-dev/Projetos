@@ -16,7 +16,7 @@
 | Python                    |        [x]        |         [x]          | 3.14.4 (ambos)       |
 | VS Code                   |        [x]        |         [x]          | Note: 1.131.0        |
 | Git + GitHub              |        [x]        |         [x]          | 2.53.0 (ambos)       |
-| VS Code Settings Sync     |        [ ]        |         [ ]          | login GitHub         |
+| VS Code Settings Sync     |        [x]        |         [x]          | login GitHub ✔       |
 | nvm                       |        [x]        |         [x]          | 0.40.1 (ambos)       |
 | Node.js (via nvm)         |        [x]        |         [x]          | v24.18.1 (ambos)     |
 | Claude Code               |        [x]        |         [x]          | 2.1.220 (ambos)      |
@@ -50,12 +50,13 @@ claude      -> 2.1.220 (Claude Code) — login pendente
 - Git user.email:
 - Método de auth GitHub: (SSH / token)
 - Claude Code tema: Dark mode
+- VS Code: idioma em Inglês (padronizado nos dois PCs)
+- VS Code Settings Sync: conflitos resolvidos com "Accept Remote Settings"
 
 ---
 
 ## ⏭️ Próximos passos
 - [ ] Autenticar Claude no Notebook (após contratar assinatura — rodar `claude` no diretório do projeto)
-- [ ] Ativar VS Code Settings Sync nos dois PCs
 - [ ] (Opcional) Atualizar npm 11.16.0 -> 12.0.2 nos dois PCs
 
 ---
@@ -64,3 +65,4 @@ claude      -> 2.1.220 (Claude Code) — login pendente
 - **2026-08-01 (Desktop):** SETUP.md versionado (commit ea7a2ab). Desktop 100% pronto — Claude autenticado, tema Dark.
 - **2026-08-01 (Notebook):** Repositório sincronizado via git pull. Diagnóstico: Ubuntu 26.04, Python 3.14.4, Git 2.53.0 e VS Code 1.131.0 já OK.
 - **2026-08-01 (Notebook):** Instalados nvm 0.40.1, Node v24.18.1, npm 11.16.0 e Claude Code 2.1.220. Ambiente agora idêntico ao Desktop. Login do Claude adiado até contratar assinatura. Tema Dark selecionado.
+- **2026-08-01 (Notebook):** VS Code Settings Sync ativado e sincronizado com o Desktop. Conflitos resolvidos com "Accept Remote Settings". Idioma mantido em Inglês.

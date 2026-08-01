@@ -17,6 +17,7 @@
 | VS Code                   |        [x]        |         [x]          | Note: 1.131.0        |
 | Git + GitHub              |        [x]        |         [x]          | 2.53.0 (ambos)       |
 | VS Code Settings Sync     |        [x]        |         [x]          | login GitHub ✔       |
+| Extensões VS Code         |        [x]        |         [x]          | 9 extensões (ambos)  |
 | nvm                       |        [x]        |         [x]          | 0.40.1 (ambos)       |
 | Node.js (via nvm)         |        [x]        |         [x]          | v24.18.1 (ambos)     |
 | npm                       |        [x]        |         [x]          | 12.0.2 (ambos)       |
@@ -56,6 +57,19 @@ claude      -> 2.1.220 (Claude Code) — login pendente
 
 ---
 
+## 🧩 Extensões VS Code (padronizadas nos 2 PCs)
+- eamodio.gitlens — Git avançado
+- ms-python.black-formatter — formatador Black
+- ms-python.debugpy — debugger Python
+- ms-python.isort — ordenar imports
+- ms-python.python — suporte Python
+- ms-python.vscode-pylance — language server
+- ms-python.vscode-python-envs — gerenciador de ambientes
+- oderwat.indent-rainbow — indentação colorida
+- usernamehw.errorlens — erros inline
+
+---
+
 ## 🐍 Dependências Python (requirements.txt)
 - black==26.5.1 (formatador)
 - click, mypy_extensions, packaging, pathspec, platformdirs, pytokens (deps do Black)
@@ -65,6 +79,7 @@ claude      -> 2.1.220 (Claude Code) — login pendente
 
 ## ⏭️ Próximos passos
 - [ ] Autenticar Claude no Notebook (após contratar assinatura — rodar `claude` no diretório do projeto)
+- [ ] Investigar por que o Settings Sync não sincronizou extensões automaticamente
 
 ---
 
@@ -75,3 +90,4 @@ claude      -> 2.1.220 (Claude Code) — login pendente
 - **2026-08-01 (Notebook):** VS Code Settings Sync ativado e sincronizado com o Desktop. Conflitos resolvidos com "Accept Remote Settings". Idioma mantido em Inglês.
 - **2026-08-01 (Notebook):** Git confirmado (user.name/email/remote). Adicionado Black e deps ao requirements.txt (commit f3abc5a). npm atualizado 11.16.0 -> 12.0.2. Arquivo hello.py de teste descartado com git restore.
 - **2026-08-01 (Desktop):** npm atualizado 11.16.0 -> 12.0.2. Ambientes agora 100% idênticos. Conflito no git pull resolvido com git checkout (descartada versão local antiga do SETUP.md).
+- **2026-08-01 (Desktop):** Instaladas 5 extensões que faltavam (GitLens, Black, isort, indent-rainbow, ErrorLens) e removido language-pack-pt-br. Extensões agora idênticas ao Notebook (9 no total), idioma em inglês.
